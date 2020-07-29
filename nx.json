@@ -24,5 +24,16 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "ng-play": {
+      "tags": []
+    },
+    "ng-play-e2e": {
+      "tags": [],
+      "implicitDependencies": ["ng-play"]
+    },
+    "react-components": {
+      "tags": []
+    }
+  }
 }
